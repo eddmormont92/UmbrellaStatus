@@ -4,7 +4,7 @@ async function fetchUmbrellaStatus() {
   try {
     // Launch the browser
     const browser = await puppeteer.launch({
-      executablePath: '/usr/bin/chromium-browser', // Path to your Chromium or Chrome browser
+      executablePath: '/chromium-browser', // Path to your Chromium or Chrome browser
       headless: true, // Run in headless mode
     });
 
